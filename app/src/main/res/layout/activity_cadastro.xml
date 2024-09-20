@@ -66,6 +66,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtConfirmaSenha"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="UsingOnClickInXml" />
 
     <TextView
@@ -123,6 +125,7 @@
         android:background="@drawable/cxtexto_cinza"
         android:ems="10"
         android:hint="Digite seu nome"
+        android:textColorHint="@color/cinza_60"
         android:inputType="text"
         android:padding="16dp"
         android:textColor="#251B1B"
@@ -154,6 +157,7 @@
         android:background="@drawable/cxtexto_cinza"
         android:ems="10"
         android:hint="Digite seu Email"
+        android:textColorHint="@color/cinza_60"
         android:inputType="text"
         android:textColor="#251B1B"
         android:padding="16dp"

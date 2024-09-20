@@ -15,10 +15,13 @@ public class CadastroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_cadastro);
     }
 
-    // intent para entrar tela conversao
+
     public void entrar(View view) {
+        // intent para entrar tela conversao
         Intent in = new Intent(CadastroActivity.this, Conversao.class);
         startActivity(in);
 
